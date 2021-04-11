@@ -1,1 +1,20 @@
-{}
+{
+    "zjuthesis-undergraduate-general-thesis-final.pdf": {
+        "texlive": {
+            "type": "docker@adnrv/texlive:full",
+            "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
+            "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
+        },
+        "time": "2021-04-11T08:28:32.997779",
+        "zjuthesis": {
+            "commit_id": "79bf7cc",
+            "major": "general",
+            "degree": "undergraduate",
+            "thesis_type": "thesis",
+            "period": "final",
+            "blind": false,
+            "grad_level": "master",
+            "language": "chinese"
+        }
+    }
+}
