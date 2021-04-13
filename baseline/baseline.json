@@ -5,16 +5,250 @@
             "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
             "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
         },
-        "time": "2021-04-11T08:28:32.997779",
+        "time": "2021-04-13T08:31:01.800400",
         "zjuthesis": {
-            "commit_id": "79bf7cc",
+            "commit_id": "6c53680",
             "major": "general",
             "degree": "undergraduate",
             "thesis_type": "thesis",
             "period": "final",
             "blind": false,
+            "grad_level": "doctor",
+            "language": "chinese"
+        }
+    },
+    "zjuthesis-undergraduate-general-thesis-final-blind.pdf": {
+        "texlive": {
+            "type": "docker@adnrv/texlive:full",
+            "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
+            "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
+        },
+        "time": "2021-04-13T08:30:47.724733",
+        "zjuthesis": {
+            "commit_id": "6c53680",
+            "major": "general",
+            "degree": "undergraduate",
+            "thesis_type": "thesis",
+            "period": "final",
+            "blind": true,
+            "grad_level": "doctor",
+            "language": "chinese"
+        }
+    },
+    "zjuthesis-undergraduate-general-thesis-proposal.pdf": {
+        "texlive": {
+            "type": "docker@adnrv/texlive:full",
+            "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
+            "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
+        },
+        "time": "2021-04-13T08:31:16.281426",
+        "zjuthesis": {
+            "commit_id": "6c53680",
+            "major": "general",
+            "degree": "undergraduate",
+            "thesis_type": "thesis",
+            "period": "proposal",
+            "blind": false,
+            "grad_level": "doctor",
+            "language": "chinese"
+        }
+    },
+    "zjuthesis-undergraduate-cs-thesis-final.pdf": {
+        "texlive": {
+            "type": "docker@adnrv/texlive:full",
+            "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
+            "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
+        },
+        "time": "2021-04-13T08:31:31.653647",
+        "zjuthesis": {
+            "commit_id": "6c53680",
+            "major": "cs",
+            "degree": "undergraduate",
+            "thesis_type": "thesis",
+            "period": "final",
+            "blind": false,
+            "grad_level": "doctor",
+            "language": "chinese"
+        }
+    },
+    "zjuthesis-undergraduate-cs-thesis-proposal.pdf": {
+        "texlive": {
+            "type": "docker@adnrv/texlive:full",
+            "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
+            "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
+        },
+        "time": "2021-04-13T08:31:45.055286",
+        "zjuthesis": {
+            "commit_id": "6c53680",
+            "major": "cs",
+            "degree": "undergraduate",
+            "thesis_type": "thesis",
+            "period": "proposal",
+            "blind": false,
+            "grad_level": "doctor",
+            "language": "chinese"
+        }
+    },
+    "zjuthesis-undergraduate-cs-design-final.pdf": {
+        "texlive": {
+            "type": "docker@adnrv/texlive:full",
+            "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
+            "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
+        },
+        "time": "2021-04-13T08:32:00.937172",
+        "zjuthesis": {
+            "commit_id": "6c53680",
+            "major": "cs",
+            "degree": "undergraduate",
+            "thesis_type": "design",
+            "period": "final",
+            "blind": false,
+            "grad_level": "doctor",
+            "language": "chinese"
+        }
+    },
+    "zjuthesis-undergraduate-cs-design-proposal.pdf": {
+        "texlive": {
+            "type": "docker@adnrv/texlive:full",
+            "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
+            "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
+        },
+        "time": "2021-04-13T08:32:16.843763",
+        "zjuthesis": {
+            "commit_id": "6c53680",
+            "major": "cs",
+            "degree": "undergraduate",
+            "thesis_type": "design",
+            "period": "proposal",
+            "blind": false,
+            "grad_level": "doctor",
+            "language": "chinese"
+        }
+    },
+    "zjuthesis-undergraduate-isee-thesis-final.pdf": {
+        "texlive": {
+            "type": "docker@adnrv/texlive:full",
+            "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
+            "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
+        },
+        "time": "2021-04-13T08:32:31.611769",
+        "zjuthesis": {
+            "commit_id": "6c53680",
+            "major": "isee",
+            "degree": "undergraduate",
+            "thesis_type": "thesis",
+            "period": "final",
+            "blind": false,
+            "grad_level": "doctor",
+            "language": "chinese"
+        }
+    },
+    "zjuthesis-undergraduate-math-thesis-final.pdf": {
+        "texlive": {
+            "type": "docker@adnrv/texlive:full",
+            "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
+            "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
+        },
+        "time": "2021-04-13T08:32:45.541154",
+        "zjuthesis": {
+            "commit_id": "6c53680",
+            "major": "math",
+            "degree": "undergraduate",
+            "thesis_type": "thesis",
+            "period": "final",
+            "blind": false,
+            "grad_level": "doctor",
+            "language": "chinese"
+        }
+    },
+    "zjuthesis-undergraduate-physics-thesis-final.pdf": {
+        "texlive": {
+            "type": "docker@adnrv/texlive:full",
+            "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
+            "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
+        },
+        "time": "2021-04-13T08:32:59.831791",
+        "zjuthesis": {
+            "commit_id": "6c53680",
+            "major": "physics",
+            "degree": "undergraduate",
+            "thesis_type": "thesis",
+            "period": "final",
+            "blind": false,
+            "grad_level": "doctor",
+            "language": "chinese"
+        }
+    },
+    "zjuthesis-graduate-master-cs-thesis-final.pdf": {
+        "texlive": {
+            "type": "docker@adnrv/texlive:full",
+            "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
+            "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
+        },
+        "time": "2021-04-13T08:33:14.238938",
+        "zjuthesis": {
+            "commit_id": "6c53680",
+            "major": "cs",
+            "degree": "graduate",
+            "thesis_type": "thesis",
+            "period": "final",
+            "blind": false,
             "grad_level": "master",
             "language": "chinese"
+        }
+    },
+    "zjuthesis-graduate-master-general-thesis-final.pdf": {
+        "texlive": {
+            "type": "docker@adnrv/texlive:full",
+            "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
+            "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
+        },
+        "time": "2021-04-13T08:33:28.369709",
+        "zjuthesis": {
+            "commit_id": "6c53680",
+            "major": "general",
+            "degree": "graduate",
+            "thesis_type": "thesis",
+            "period": "final",
+            "blind": false,
+            "grad_level": "master",
+            "language": "chinese"
+        }
+    },
+    "zjuthesis-graduate-doctor-general-thesis-final.pdf": {
+        "texlive": {
+            "type": "docker@adnrv/texlive:full",
+            "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
+            "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
+        },
+        "time": "2021-04-13T08:33:43.186672",
+        "zjuthesis": {
+            "commit_id": "6c53680",
+            "major": "general",
+            "degree": "graduate",
+            "thesis_type": "thesis",
+            "period": "final",
+            "blind": false,
+            "grad_level": "doctor",
+            "language": "chinese"
+        }
+    },
+    "zjuthesis-graduate-doctor-general-thesis-final-english.pdf": {
+        "texlive": {
+            "type": "docker@adnrv/texlive:full",
+            "latexmk": "Latexmk, John Collins, 13 September 2020. Version 4.70a",
+            "xelatex": "XeTeX 3.14159265-2.6-0.999992 (TeX Live 2020)"
+        },
+        "time": "2021-04-13T08:33:55.738004",
+        "zjuthesis": {
+            "commit_id": "6c53680",
+            "major": "general",
+            "degree": "graduate",
+            "thesis_type": "thesis",
+            "period": "final",
+            "blind": false,
+            "grad_level": "doctor",
+            "language": "english"
         }
     }
 }

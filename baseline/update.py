@@ -15,26 +15,55 @@ def update():
 
 
 @update.command()
-@click.option('-m', '--major', required=True, type=click.Choice(['general', 'cs', 'isee', 'math', 'physics', 'se']))
 @click.option('-d', '--degree', required=True, type=click.Choice(['undergraduate', 'graduate']))
+@click.option('-m', '--major', required=True, type=click.Choice(['general', 'cs', 'isee', 'math', 'physics', 'se']))
 @click.option('-t', '--thesis_type', required=True, type=click.Choice(['thesis', 'design']))
 @click.option('-p', '--period', required=True, type=click.Choice(['proposal', 'final']))
 @click.option('-b', '--blind', is_flag=True)
 @click.option('-g', '--grad_level', required=True, default='master', type=click.Choice(['master', 'doctor']))
 @click.option('-l', '--language', required=True, default='chinese', type=click.Choice(['chinese', 'english']))
-def single(major, degree, thesis_type, period, blind, grad_level, language):
+def single(degree, major, thesis_type, period, blind, grad_level, language):
     '''Update single baseline pdf file'''
-    update_single(major, degree, thesis_type,
+    update_single(degree, major, thesis_type,
                   period, blind, grad_level, language)
 
 
 @update.command()
 def preset():
     '''Update preset baseline pdf files'''
-    pass
+    # 1. Undergraduate
+    major_main = ['general', 'cs']
+    major_sample = ['isee', 'math', 'physics']
+    thesis_type = ['thesis']
+    periods = ['final', 'proposal']
+    
+    # Blind Review
+    update_single('undergraduate', 'general', 'thesis', 'final', True)
+    # Main Majors
+    for m in major_main:
+        for t in thesis_type:
+            for p in periods:
+                update_single('undergraduate', m, t, p, False)
+    # CS Design Final and Proposal
+    update_single('undergraduate', 'cs', 'design', 'final', False)
+    update_single('undergraduate', 'cs', 'design', 'proposal', False)
+    # Sample Majors
+    for m in major_sample:
+        update_single('undergraduate', m, 'thesis', 'final', False)
+    # 2. Graduate
+    update_single('graduate', 'cs', 'thesis', 'final', False, 'master')
+    update_single('graduate', 'general', 'thesis', 'final', False, 'master')
+    update_single('graduate', 'general', 'thesis', 'final', False, 'doctor')
+    update_single('graduate', 'general', 'thesis', 'final', False, 'doctor', 'english')
 
 
-def update_single(major, degree, thesis_type, period, blind, grad_level, language):
+def update_single(degree, major, thesis_type, period, blind, grad_level = 'doctor', language = 'chinese'):
+    assert degree in ['undergraduate', 'graduate']
+    assert major in ['general', 'cs', 'isee', 'math', 'physics', 'se']
+    assert thesis_type in ['thesis', 'design']
+    assert period in ['proposal', 'final']
+    assert grad_level in ['master', 'doctor']
+    assert language in ['chinese', 'english']
     # Single pdf config
     with open('baseline.json', 'r') as f:
         cfg = json.load(f)
