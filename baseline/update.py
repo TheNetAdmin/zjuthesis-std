@@ -16,7 +16,7 @@ def update():
 
 @update.command()
 @click.option('-d', '--degree', required=True, type=click.Choice(['undergraduate', 'graduate']))
-@click.option('-m', '--major', required=True, type=click.Choice(['general', 'cs', 'isee', 'math', 'physics', 'se']))
+@click.option('-m', '--major', required=True, type=click.Choice(['general', 'cs', 'isee', 'math', 'physics', 'se', 'opteng']))
 @click.option('-t', '--thesis_type', required=True, type=click.Choice(['thesis', 'design']))
 @click.option('-p', '--period', required=True, type=click.Choice(['proposal', 'final']))
 @click.option('-b', '--blind', is_flag=True)
@@ -51,15 +51,16 @@ def preset():
     for m in major_sample:
         update_single('undergraduate', m, 'thesis', 'final', False)
     # 2. Graduate
-    update_single('graduate', 'cs', 'thesis', 'final', False, 'master')
+    update_single('graduate', 'cs',      'thesis', 'final', False, 'master')
     update_single('graduate', 'general', 'thesis', 'final', False, 'master')
     update_single('graduate', 'general', 'thesis', 'final', False, 'doctor')
+    update_single('graduate', 'opteng',  'thesis', 'final', False, 'doctor')
     update_single('graduate', 'general', 'thesis', 'final', False, 'doctor', 'english')
 
 
 def update_single(degree, major, thesis_type, period, blind, grad_level = 'doctor', language = 'chinese'):
     assert degree in ['undergraduate', 'graduate']
-    assert major in ['general', 'cs', 'isee', 'math', 'physics', 'se']
+    assert major in ['general', 'cs', 'isee', 'math', 'physics', 'se', 'opteng']
     assert thesis_type in ['thesis', 'design']
     assert period in ['proposal', 'final']
     assert grad_level in ['master', 'doctor']
