@@ -23,15 +23,15 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-05-22T04:18:10.262592",
+        "time": "2021-05-24T00:08:54.458449",
         "zjuthesis": {
-            "commit_id": "ef990bc",
+            "commit_id": "2abeaeb",
             "major": "general",
             "degree": "undergraduate",
             "thesis_type": "thesis",
             "period": "final",
             "blind": true,
-            "grad_level": "doctor",
+            "grad_level": "master",
             "language": "chinese"
         }
     },
