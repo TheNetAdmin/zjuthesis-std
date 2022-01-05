@@ -5,9 +5,9 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-05-22T04:18:34.839059",
+        "time": "2022-01-05T18:52:32.054850",
         "zjuthesis": {
-            "commit_id": "ef990bc",
+            "commit_id": "9180406",
             "major": "general",
             "degree": "undergraduate",
             "thesis_type": "thesis",
@@ -23,15 +23,15 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-05-24T00:08:54.458449",
+        "time": "2022-01-05T18:52:03.764172",
         "zjuthesis": {
-            "commit_id": "2abeaeb",
+            "commit_id": "9180406",
             "major": "general",
             "degree": "undergraduate",
             "thesis_type": "thesis",
             "period": "final",
             "blind": true,
-            "grad_level": "master",
+            "grad_level": "doctor",
             "language": "chinese"
         }
     },
@@ -41,9 +41,9 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-05-22T04:18:59.335864",
+        "time": "2022-01-05T18:52:54.610501",
         "zjuthesis": {
-            "commit_id": "ef990bc",
+            "commit_id": "9180406",
             "major": "general",
             "degree": "undergraduate",
             "thesis_type": "thesis",
@@ -59,15 +59,15 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-05-26T05:48:30.852311",
+        "time": "2022-01-05T18:53:15.153201",
         "zjuthesis": {
-            "commit_id": "7293a75",
+            "commit_id": "9180406",
             "major": "cs",
             "degree": "undergraduate",
             "thesis_type": "thesis",
             "period": "final",
             "blind": false,
-            "grad_level": "master",
+            "grad_level": "doctor",
             "language": "chinese"
         }
     },
@@ -77,9 +77,9 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-05-22T04:19:42.438983",
+        "time": "2022-01-05T18:53:37.143146",
         "zjuthesis": {
-            "commit_id": "ef990bc",
+            "commit_id": "9180406",
             "major": "cs",
             "degree": "undergraduate",
             "thesis_type": "thesis",
@@ -95,15 +95,15 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-05-26T05:49:09.916972",
+        "time": "2022-01-05T18:53:55.289465",
         "zjuthesis": {
-            "commit_id": "7293a75",
+            "commit_id": "9180406",
             "major": "cs",
             "degree": "undergraduate",
             "thesis_type": "design",
             "period": "final",
             "blind": false,
-            "grad_level": "master",
+            "grad_level": "doctor",
             "language": "chinese"
         }
     },
@@ -113,9 +113,9 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-05-22T04:20:27.233267",
+        "time": "2022-01-05T18:54:17.735338",
         "zjuthesis": {
-            "commit_id": "ef990bc",
+            "commit_id": "9180406",
             "major": "cs",
             "degree": "undergraduate",
             "thesis_type": "design",
@@ -131,9 +131,9 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-05-22T04:20:46.339409",
+        "time": "2022-01-05T18:54:37.199677",
         "zjuthesis": {
-            "commit_id": "ef990bc",
+            "commit_id": "9180406",
             "major": "isee",
             "degree": "undergraduate",
             "thesis_type": "thesis",
@@ -149,9 +149,9 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-05-22T04:21:09.514296",
+        "time": "2022-01-05T18:54:59.084819",
         "zjuthesis": {
-            "commit_id": "ef990bc",
+            "commit_id": "9180406",
             "major": "math",
             "degree": "undergraduate",
             "thesis_type": "thesis",
@@ -167,9 +167,9 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-05-22T04:21:31.296170",
+        "time": "2022-01-05T18:55:23.590905",
         "zjuthesis": {
-            "commit_id": "ef990bc",
+            "commit_id": "9180406",
             "major": "physics",
             "degree": "undergraduate",
             "thesis_type": "thesis",
@@ -185,9 +185,9 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-12-04T21:51:37.943088",
+        "time": "2022-01-05T18:55:46.421577",
         "zjuthesis": {
-            "commit_id": "344f641",
+            "commit_id": "9180406",
             "major": "cs",
             "degree": "graduate",
             "thesis_type": "thesis",
@@ -203,9 +203,9 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-12-04T21:52:05.866316",
+        "time": "2022-01-05T18:56:11.198888",
         "zjuthesis": {
-            "commit_id": "344f641",
+            "commit_id": "9180406",
             "major": "general",
             "degree": "graduate",
             "thesis_type": "thesis",
@@ -221,9 +221,9 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-12-04T21:52:29.312204",
+        "time": "2022-01-05T18:56:32.959966",
         "zjuthesis": {
-            "commit_id": "344f641",
+            "commit_id": "9180406",
             "major": "general",
             "degree": "graduate",
             "thesis_type": "thesis",
@@ -239,9 +239,9 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-12-04T21:53:19.175772",
+        "time": "2022-01-05T18:57:22.283039",
         "zjuthesis": {
-            "commit_id": "344f641",
+            "commit_id": "9180406",
             "major": "general",
             "degree": "graduate",
             "thesis_type": "thesis",
@@ -257,9 +257,9 @@
             "latexmk": "Latexmk, John Collins, 15 April 2021. Version 4.72b",
             "xelatex": "XeTeX 3.141592653-2.6-0.999993 (TeX Live 2021)"
         },
-        "time": "2021-12-04T21:52:53.421597",
+        "time": "2022-01-05T18:56:56.997017",
         "zjuthesis": {
-            "commit_id": "344f641",
+            "commit_id": "9180406",
             "major": "opteng",
             "degree": "graduate",
             "thesis_type": "thesis",
